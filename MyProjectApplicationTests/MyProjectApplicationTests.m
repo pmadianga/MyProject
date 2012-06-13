@@ -33,11 +33,11 @@
     UIButton * testButton = (UIButton*) [rootView viewWithTag:1];
     NSString * titleLabelText = testButton.titleLabel.text;
     
+    // test
     res = [stringTest isEqualToString:titleLabelText];
     
+    // return test
     STAssertTrue(res, @"le texte du bouton n'est pas correcte");
-    
-    
 }
 
 @end
