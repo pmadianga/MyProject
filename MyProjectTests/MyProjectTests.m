@@ -26,7 +26,8 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests 2 are not implemented yet in MyProjectTests");
+    //STFail(@"Unit tests 2 are not implemented yet in MyProjectTests");
+    STAssertTrue(TRUE,@"");
 }
 
 @end

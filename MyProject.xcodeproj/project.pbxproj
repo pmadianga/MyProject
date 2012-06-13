@@ -378,6 +378,7 @@
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectTests/MyProjectTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -395,6 +396,7 @@
 				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectTests/MyProjectTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -419,6 +421,7 @@
 				25CA8A381588C08700E30A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25CA8A391588C08700E30A5A /* Build configuration list for PBXNativeTarget "MyProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				25CA8A3B1588C08700E30A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
