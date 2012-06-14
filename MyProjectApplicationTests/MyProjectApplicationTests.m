@@ -36,6 +36,12 @@
     // test
     res = [stringTest isEqualToString:titleLabelText];
     
+    //log
+    NSLog(@"appDelegate : %@", appDelegate.description);
+    NSLog(@"rootViewController : %@", rootViewController.description);
+    NSLog(@"rootView: %@", rootView.description);
+    NSLog(@"titleLabelText : %@", titleLabelText);
+    
     // return test
     STAssertTrue(res, @"le texte du bouton n'est pas correcte");
 }

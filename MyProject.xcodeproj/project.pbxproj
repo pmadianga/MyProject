@@ -372,7 +372,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\"${PROJECT_DIR}/XcodeScripts/RunPlatformUnitTests\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -560,6 +561,7 @@
 				GCC_PREFIX_HEADER = "MyProjectApplicationTests/MyProjectApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectApplicationTests/MyProjectApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -577,6 +579,7 @@
 				GCC_PREFIX_HEADER = "MyProjectApplicationTests/MyProjectApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectApplicationTests/MyProjectApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -619,6 +622,7 @@
 				25FD9F801588E74200C22673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
