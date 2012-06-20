@@ -553,6 +553,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prudence Madianga (3U7CGBZ5PK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prudence Madianga (3U7CGBZ5PK)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -561,6 +563,8 @@
 				GCC_PREFIX_HEADER = "MyProjectApplicationTests/MyProjectApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectApplicationTests/MyProjectApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "097C062C-5487-44B3-9FBA-F94D6E2EA08B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "716EA7F5-D862-4497-BC97-92766466B1F0";
 				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
 				WRAPPER_EXTENSION = octest;
@@ -571,6 +575,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prudence Madianga (3U7CGBZ5PK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prudence Madianga (3U7CGBZ5PK)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -579,6 +585,8 @@
 				GCC_PREFIX_HEADER = "MyProjectApplicationTests/MyProjectApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "MyProjectApplicationTests/MyProjectApplicationTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "097C062C-5487-44B3-9FBA-F94D6E2EA08B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "097C062C-5487-44B3-9FBA-F94D6E2EA08B";
 				TEST_AFTER_BUILD = YES;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyProject.app/MyProject";
 				WRAPPER_EXTENSION = octest;
