@@ -15,6 +15,7 @@
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize rootViewController = _rootViewController;
+@synthesize navigationController = _navigationController;
 
 - (void)dealloc
 {
@@ -37,8 +38,15 @@
     self.rootViewController = myRootViewController;
     [myRootViewController release];
     
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
+    [navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+    self.navigationController = navigationController;
+    [navigationController release];
+    
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window addSubview:self.rootViewController.view];
+    self.window.rootViewController = self.navigationController;
+    
+    [navigationController release];
     [self.window makeKeyAndVisible];
     return YES;
 }

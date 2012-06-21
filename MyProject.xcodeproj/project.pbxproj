@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		25C63B131593236F00DD0781 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C63B121593236F00DD0781 /* CFNetwork.framework */; };
+		25C63B191593274A00DD0781 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C63B171593274A00DD0781 /* BlueViewController.m */; };
+		25C63B1A1593274A00DD0781 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C63B181593274A00DD0781 /* BlueViewController.xib */; };
+		25C63B1E1593276700DD0781 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C63B1C1593276700DD0781 /* RedViewController.m */; };
+		25C63B1F1593276700DD0781 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C63B1D1593276700DD0781 /* RedViewController.xib */; };
+		25C63B2615932D1900DD0781 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C63B171593274A00DD0781 /* BlueViewController.m */; };
+		25C63B2715932D1900DD0781 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C63B1C1593276700DD0781 /* RedViewController.m */; };
+		25C63B2815932DF200DD0781 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C63B181593274A00DD0781 /* BlueViewController.xib */; };
+		25C63B2915932DF200DD0781 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C63B1D1593276700DD0781 /* RedViewController.xib */; };
 		25CA8A081588C08700E30A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A071588C08700E30A5A /* UIKit.framework */; };
 		25CA8A0A1588C08700E30A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A091588C08700E30A5A /* Foundation.framework */; };
 		25CA8A0C1588C08700E30A5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A0B1588C08700E30A5A /* CoreGraphics.framework */; };
@@ -63,6 +71,12 @@
 
 /* Begin PBXFileReference section */
 		25C63B121593236F00DD0781 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		25C63B161593274A00DD0781 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		25C63B171593274A00DD0781 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		25C63B181593274A00DD0781 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		25C63B1B1593276700DD0781 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		25C63B1C1593276700DD0781 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		25C63B1D1593276700DD0781 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
 		25CA8A031588C08700E30A5A /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CA8A071588C08700E30A5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25CA8A091588C08700E30A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,11 +162,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25C63B141593271300DD0781 /* RedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25C63B1B1593276700DD0781 /* RedViewController.h */,
+				25C63B1C1593276700DD0781 /* RedViewController.m */,
+				25C63B1D1593276700DD0781 /* RedViewController.xib */,
+			);
+			path = RedViewController;
+			sourceTree = "<group>";
+		};
+		25C63B151593271E00DD0781 /* BlueViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25C63B161593274A00DD0781 /* BlueViewController.h */,
+				25C63B171593274A00DD0781 /* BlueViewController.m */,
+				25C63B181593274A00DD0781 /* BlueViewController.xib */,
+			);
+			path = BlueViewController;
+			sourceTree = "<group>";
+		};
 		25CA89F81588C08700E30A5A = {
 			isa = PBXGroup;
 			children = (
-				25C63B121593236F00DD0781 /* CFNetwork.framework */,
-				25FDA0051593215800C22673 /* QuartzCore.framework */,
 				25CA8A0F1588C08700E30A5A /* MyProject */,
 				25CA8A2B1588C08700E30A5A /* MyProjectTests */,
 				25FD9F751588E74200C22673 /* MyProjectApplicationTests */,
@@ -178,6 +210,8 @@
 			children = (
 				25FDA0031593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a */,
 				25FDA0011593210900C22673 /* libsqlite3.dylib */,
+				25C63B121593236F00DD0781 /* CFNetwork.framework */,
+				25FDA0051593215800C22673 /* QuartzCore.framework */,
 				25CA8A071588C08700E30A5A /* UIKit.framework */,
 				25CA8A091588C08700E30A5A /* Foundation.framework */,
 				25CA8A0B1588C08700E30A5A /* CoreGraphics.framework */,
@@ -260,6 +294,8 @@
 		25FD9F8A1588EA3500C22673 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				25C63B151593271E00DD0781 /* BlueViewController */,
+				25C63B141593271300DD0781 /* RedViewController */,
 				25FD9F8B1588EA9300C22673 /* RootViewController */,
 			);
 			path = ViewControllers;
@@ -385,6 +421,8 @@
 			files = (
 				25CA8A141588C08700E30A5A /* InfoPlist.strings in Resources */,
 				25FD9F901588EAB100C22673 /* RootViewController.xib in Resources */,
+				25C63B1A1593274A00DD0781 /* BlueViewController.xib in Resources */,
+				25C63B1F1593276700DD0781 /* RedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +446,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C63B2815932DF200DD0781 /* BlueViewController.xib in Resources */,
+				25C63B2915932DF200DD0781 /* RedViewController.xib in Resources */,
 				25FD9FF81593208100C22673 /* InfoPlist.strings in Resources */,
 				25FD9FF91593208100C22673 /* RootViewController.xib in Resources */,
 			);
@@ -454,6 +494,8 @@
 				25CA8A1A1588C08700E30A5A /* AppDelegate.m in Sources */,
 				25CA8A1D1588C08700E30A5A /* MyProject.xcdatamodeld in Sources */,
 				25FD9F8F1588EAB100C22673 /* RootViewController.m in Sources */,
+				25C63B191593274A00DD0781 /* BlueViewController.m in Sources */,
+				25C63B1E1593276700DD0781 /* RedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +519,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C63B2615932D1900DD0781 /* BlueViewController.m in Sources */,
+				25C63B2715932D1900DD0781 /* RedViewController.m in Sources */,
 				25FD9FEE1593208100C22673 /* main.m in Sources */,
 				25FD9FEF1593208100C22673 /* AppDelegate.m in Sources */,
 				25FD9FF01593208100C22673 /* MyProject.xcdatamodeld in Sources */,

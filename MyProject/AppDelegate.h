@@ -12,6 +12,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 {
     RootViewController * _rootViewController;
+    
+    UINavigationController *_navigationController;
 }
 
 @property (strong, nonatomic) UIWindow *window;
@@ -20,6 +22,7 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 @property (nonatomic, retain) RootViewController * rootViewController;
+@property (nonatomic, retain) UINavigationController *navigationController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
