@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>MyProjectMonkey.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>MyProjectTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>25FD9F701588E74200C22673</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>25FD9FEC1593208100C22673</key>
 		<dict>
 			<key>primary</key>
 			<true/>

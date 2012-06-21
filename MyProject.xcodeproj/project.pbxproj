@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C63B131593236F00DD0781 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C63B121593236F00DD0781 /* CFNetwork.framework */; };
 		25CA8A081588C08700E30A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A071588C08700E30A5A /* UIKit.framework */; };
 		25CA8A0A1588C08700E30A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A091588C08700E30A5A /* Foundation.framework */; };
 		25CA8A0C1588C08700E30A5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A0B1588C08700E30A5A /* CoreGraphics.framework */; };
@@ -28,6 +29,19 @@
 		25FD9F7D1588E74200C22673 /* MyProjectApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD9F7C1588E74200C22673 /* MyProjectApplicationTests.m */; };
 		25FD9F8F1588EAB100C22673 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD9F8D1588EAB100C22673 /* RootViewController.m */; };
 		25FD9F901588EAB100C22673 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FD9F8E1588EAB100C22673 /* RootViewController.xib */; };
+		25FD9FEE1593208100C22673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA8A151588C08700E30A5A /* main.m */; };
+		25FD9FEF1593208100C22673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA8A191588C08700E30A5A /* AppDelegate.m */; };
+		25FD9FF01593208100C22673 /* MyProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25CA8A1B1588C08700E30A5A /* MyProject.xcdatamodeld */; };
+		25FD9FF11593208100C22673 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD9F8D1588EAB100C22673 /* RootViewController.m */; };
+		25FD9FF31593208100C22673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A071588C08700E30A5A /* UIKit.framework */; };
+		25FD9FF41593208100C22673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A091588C08700E30A5A /* Foundation.framework */; };
+		25FD9FF51593208100C22673 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A0B1588C08700E30A5A /* CoreGraphics.framework */; };
+		25FD9FF61593208100C22673 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CA8A0D1588C08700E30A5A /* CoreData.framework */; };
+		25FD9FF81593208100C22673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CA8A121588C08700E30A5A /* InfoPlist.strings */; };
+		25FD9FF91593208100C22673 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FD9F8E1588EAB100C22673 /* RootViewController.xib */; };
+		25FDA0021593210900C22673 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDA0011593210900C22673 /* libsqlite3.dylib */; };
+		25FDA0041593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDA0031593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a */; };
+		25FDA0061593215800C22673 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDA0051593215800C22673 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25C63B121593236F00DD0781 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		25CA8A031588C08700E30A5A /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CA8A071588C08700E30A5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25CA8A091588C08700E30A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +90,11 @@
 		25FD9F8C1588EAB100C22673 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		25FD9F8D1588EAB100C22673 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		25FD9F8E1588EAB100C22673 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		25FD9FFD1593208100C22673 /* MyProject copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyProject copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FD9FFF1593208100C22673 /* MyProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyProject copy-Info.plist"; path = "/Users/mac_serveur_adp_1/github/MyProject/MyProject copy-Info.plist"; sourceTree = "<absolute>"; };
+		25FDA0011593210900C22673 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		25FDA0031593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMonkeyTalk-1.0.8.beta4c.a"; path = "Frameworks/MonkeyTalk/libMonkeyTalk-1.0.8.beta4c.a"; sourceTree = "<group>"; };
+		25FDA0051593215800C22673 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,17 +130,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25FD9FF21593208100C22673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C63B131593236F00DD0781 /* CFNetwork.framework in Frameworks */,
+				25FDA0061593215800C22673 /* QuartzCore.framework in Frameworks */,
+				25FDA0021593210900C22673 /* libsqlite3.dylib in Frameworks */,
+				25FD9FF31593208100C22673 /* UIKit.framework in Frameworks */,
+				25FD9FF41593208100C22673 /* Foundation.framework in Frameworks */,
+				25FD9FF51593208100C22673 /* CoreGraphics.framework in Frameworks */,
+				25FD9FF61593208100C22673 /* CoreData.framework in Frameworks */,
+				25FDA0041593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		25CA89F81588C08700E30A5A = {
 			isa = PBXGroup;
 			children = (
+				25C63B121593236F00DD0781 /* CFNetwork.framework */,
+				25FDA0051593215800C22673 /* QuartzCore.framework */,
 				25CA8A0F1588C08700E30A5A /* MyProject */,
 				25CA8A2B1588C08700E30A5A /* MyProjectTests */,
 				25FD9F751588E74200C22673 /* MyProjectApplicationTests */,
 				25CA8A061588C08700E30A5A /* Frameworks */,
 				25CA8A041588C08700E30A5A /* Products */,
+				25FD9FFF1593208100C22673 /* MyProject copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +168,7 @@
 				25CA8A031588C08700E30A5A /* MyProject.app */,
 				25CA8A231588C08700E30A5A /* MyProjectTests.octest */,
 				25FD9F711588E74200C22673 /* MyProjectApplicationTests.octest */,
+				25FD9FFD1593208100C22673 /* MyProject copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +176,8 @@
 		25CA8A061588C08700E30A5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25FDA0031593213100C22673 /* libMonkeyTalk-1.0.8.beta4c.a */,
+				25FDA0011593210900C22673 /* libsqlite3.dylib */,
 				25CA8A071588C08700E30A5A /* UIKit.framework */,
 				25CA8A091588C08700E30A5A /* Foundation.framework */,
 				25CA8A0B1588C08700E30A5A /* CoreGraphics.framework */,
@@ -292,6 +333,23 @@
 			productReference = 25FD9F711588E74200C22673 /* MyProjectApplicationTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		25FD9FEC1593208100C22673 /* MyProjectMonkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FD9FFA1593208100C22673 /* Build configuration list for PBXNativeTarget "MyProjectMonkey" */;
+			buildPhases = (
+				25FD9FED1593208100C22673 /* Sources */,
+				25FD9FF21593208100C22673 /* Frameworks */,
+				25FD9FF71593208100C22673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyProjectMonkey;
+			productName = MyProject;
+			productReference = 25FD9FFD1593208100C22673 /* MyProject copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -313,6 +371,7 @@
 			projectRoot = "";
 			targets = (
 				25CA8A021588C08700E30A5A /* MyProject */,
+				25FD9FEC1593208100C22673 /* MyProjectMonkey */,
 				25CA8A221588C08700E30A5A /* MyProjectTests */,
 				25FD9F701588E74200C22673 /* MyProjectApplicationTests */,
 			);
@@ -342,6 +401,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FD9F7A1588E74200C22673 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FD9FF71593208100C22673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FD9FF81593208100C22673 /* InfoPlist.strings in Resources */,
+				25FD9FF91593208100C22673 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +470,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FD9F7D1588E74200C22673 /* MyProjectApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FD9FED1593208100C22673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FD9FEE1593208100C22673 /* main.m in Sources */,
+				25FD9FEF1593208100C22673 /* AppDelegate.m in Sources */,
+				25FD9FF01593208100C22673 /* MyProject.xcdatamodeld in Sources */,
+				25FD9FF11593208100C22673 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +672,44 @@
 			};
 			name = Release;
 		};
+		25FD9FFB1593208100C22673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
+				INFOPLIST_FILE = "MyProject copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/MonkeyTalk\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "MyProject copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25FD9FFC1593208100C22673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyProject/MyProject-Prefix.pch";
+				INFOPLIST_FILE = "MyProject copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/MonkeyTalk\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "MyProject copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,6 +745,15 @@
 			buildConfigurations = (
 				25FD9F7F1588E74200C22673 /* Debug */,
 				25FD9F801588E74200C22673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FD9FFA1593208100C22673 /* Build configuration list for PBXNativeTarget "MyProjectMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FD9FFB1593208100C22673 /* Debug */,
+				25FD9FFC1593208100C22673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

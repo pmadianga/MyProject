@@ -24,8 +24,6 @@
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
     
-    NSLog(@"Log");
-    
     [super dealloc];
 }
 
